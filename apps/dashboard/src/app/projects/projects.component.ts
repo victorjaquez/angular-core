@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
+  selectedProject;
+  primaryColor = 'red';
   projects = [
     {
       id: '1',
@@ -29,7 +31,6 @@ export class ProjectsComponent implements OnInit {
       approved: true
     }
   ];
-  selectedProject;
 
   constructor() {}
 
