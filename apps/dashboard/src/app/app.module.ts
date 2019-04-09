@@ -16,11 +16,8 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    AppRoutingModule,
-    HomeModule,
-    ProjectsModule,
-    CustomersModule,
-    UiLoginModule
+    UiLoginModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
