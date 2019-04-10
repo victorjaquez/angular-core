@@ -5,16 +5,15 @@ import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from '@workshop/material';
-import { HomeModule } from './home/home.module';
-import { ProjectsModule } from './projects/projects.module';
-import { CustomersModule } from './customers/customers.module';
 import { UiLoginModule } from '@workshop/ui-login';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MaterialModule,
     UiLoginModule,
     AppRoutingModule
