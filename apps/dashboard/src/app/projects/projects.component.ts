@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
   }
 
   selectProject(project) {
-    // this.selectedProject = project;
+    this.selectedProject = project;
     console.log('SELECTED PROJECT', project);
   }
 
@@ -69,6 +69,6 @@ export class ProjectsComponent implements OnInit {
   }
 
   cancel() {
-    this.resetProject(null);
+    this.resetProject();
   }
 }
