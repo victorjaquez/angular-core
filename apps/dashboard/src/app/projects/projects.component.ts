@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
   }
 
   selectProject(project) {
-    this.selectedProject = project;
+    // this.selectedProject = project;
     console.log('SELECTED PROJECT', project);
   }
 
@@ -62,9 +62,10 @@ export class ProjectsComponent implements OnInit {
   }
 
   deleteProject(project) {
-    this.projectsService
-      .delete(project.id)
-      .subscribe(result => this.getProjects());
+    // this.projectsService
+    //   .delete(project.id)
+    //   .subscribe(result => this.getProjects());
+    console.log('delete project', project);
   }
 
   cancel() {
