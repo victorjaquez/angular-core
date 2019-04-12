@@ -94,9 +94,9 @@
   "projects": [
     {
       "id": "1",
-      "title": "Project HOLLA!",
-      "details": "This is a sample project",
-      "percentComplete": 20,
+      "title": "Project One",
+      "details": "#1",
+      "percentComplete": 71,
       "approved": false,
       "startDate": null,
       "targetDate": null,
@@ -106,9 +106,9 @@
     {
       "id": "2",
       "title": "Project Two",
-      "details": "This is a sample project",
-      "percentComplete": 40,
-      "approved": true,
+      "details": "#2",
+      "percentComplete": 67,
+      "approved": false,
       "startDate": null,
       "targetDate": null,
       "completionDate": null,
@@ -116,17 +116,24 @@
     },
     {
       "id": "NaLriMg",
-      "title": "Updated project",
-      "details": "update tst",
-      "percentComplete": 37,
+      "title": "Project Three",
+      "details": "#3",
+      "percentComplete": 58,
       "approved": true
     },
     {
       "id": "XQridpv",
-      "title": "Testt",
-      "details": "helyoooa",
-      "percentComplete": 46,
-      "approved": true
+      "title": "Project Four",
+      "details": "#4",
+      "percentComplete": 71,
+      "approved": false
+    },
+    {
+      "id": "gVLTAsT",
+      "title": "",
+      "details": "",
+      "percentComplete": 0,
+      "approved": false
     }
   ]
 }
